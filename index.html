@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boy Centure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/icon" href="FAVICON.ico">
+</head>
+<body>
+    <section id="introduction" class="home">
+        <strong>Boy Centure</strong> <br>
+        <small><b><i>Console de nova geração</i></b></small>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="buy.html">Comprar</a>
+            <a href="games.html">Jogos</a>
+            <a href="support.html">Suporte</a>
+            <button class="hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="menuoptions"id="options">
+                <a href="#perfil">Minha Conta</a>
+                <a href="#config">Configurações</a>
+                <hr>
+                <a href="#sair">Sair</a>
+            </div>
+        </nav>
+    </section>
+
+    <section id="notices" class="main">
+        <h2>NOVO JOGO <br>EM BREVE!</h2>
+        <div id="carrosel">
+            <button class="arrow" id="arrow-left" onclick="changeimage(-1)">&#10094;</button>
+            <img src="Paucaia Shooter.png" 
+            class="imageon" alt="Paucaia">
+            <img src="Paucaia Shooter 2.jpeg"   
+            class="imageoff" alt="Paucaia2">
+            <img src="Paucaia Shooter 3.jpeg"
+            class="imageoff" alt="Paucaia3">
+            <button class="arrow" id="arrow-right" onclick="changeimage(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="notices2" class="main">
+        <h2>MAIS CONFORTÁVEL <br>PRO SEU BOLSO</h2>
+        <img src="Boy Centure.png" alt="Console">
+    </section>
+    
+    <div class="noticesdiv">
+    <section id="noticesdiv1" class="main">
+        <h4>PACOTE EXCLUSIVO <br> PARA MEMBROS</h4>
+        <img src="Pacote.jpeg" alt="Pacote">
+        <button class="buttons">COMPRAR 100R$ </button>
+    </section>
+
+    <section id="noticesdiv2" class="main">
+        <h4>CONVIDE UM AMIGO <br> E GANHE 2K!</h4>
+        <img src="Paucaia Friends.jpeg" alt="Amigos">
+        <button class="buttons">NAMETAG DO SEU AMIGO(A)</button>
+
+    </section>
+    </div>
+    
+    <footer>
+        <h3> <li>&copy; Isaac Abner. Todos os Direitos Reservados. </li> 
+        <li>Contato: 85 992306748 <i class="fa-brands fa-whatsapp"></i></li>
+        <li>Email: isaacabner04@gmail.com <i class="fa-regular fa-envelope"></i> </li>
+        <li>Boy Centure V1. <i class="fa-solid fa-shuttle-space"></i></li>
+        <li> GitHUB: Coronelzinn <i class="fa-brands fa-github"></i> </li>
+        </h3>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
